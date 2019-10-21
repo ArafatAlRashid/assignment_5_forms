@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+section{
+	background-image: url(../images/bg.jpg) ;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header{
+	background-color: #353A40;
+	position: relative;
+	width: 100%;
+}
+
+.logo{
+	position: absolute;
+	width: 10%;
+	left: 45%;
+}
+.logo img{
+	width: 100%;
+}
+
+.nav{
+    width: 70%;
+    margin: 0 auto;
+}
+.nav ul{
+	text-align: right;
+	margin-right: 20px;
+}
+.nav ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+.nav ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 30px;
+	color: #ffffff;
+    display: block;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.nav ul li:nth-child(1){
+	float: left;
+	margin-left: 60px;
+}
+.nav ul li:nth-child(2){
+	float: left;
+}
+.nav ul li:nth-child(3){
+	float: left;
+}
+.nav ul li a:hover{
+	color: #6FBC6D;
+}
+
+.banner{
+	
+}
+
+.signup-box{
+	float: right;
+	margin-top: 150px;
+	padding-right: 18%;
+
+}
+form{
+	width: 300px;
+	background-color: #6EBD6C;
+	padding: 40px 15px;
+	border-radius: 3px;
+	text-align: center;
+	box-shadow: 0px 0px 2px 0px #000;
+}
+
+form input{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 6px 5px;
+	margin-bottom: 10px;
+	font-size: 17px;
+	outline: none;
+}
+.signup-box form h1{
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: sans-serif;
+	margin-bottom: 10px;
+}
+.signup-box form p{
+	color: #ffffff;
+	margin-bottom: 20px;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+
+form input[type="submit"]{
+	background-color: #529353;
+	cursor: pointer;
+	border: 1px solid #529353;
+	border-radius: 3px;
+	border-bottom: 5px solid #407B41;
+	color: #fff;
+	font-size: 15px;
+	outline: none;
+}
+
+.content{
+	width: 40%;
+	float: left;
+	margin-left: 16%;
+	margin-top: 166px;
+}
+
+h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: normal;
+	font-family: sans-serif;
+	padding-right: 10px;
+}
+span{
+	color: #6FBC6D;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+
+p{
+	color: #fff;
+	font-weight: normal;
+	font-family: sans-serif;
+	line-height: 1.4;
+}
+
+button{
+	padding: 10px 30px;
+	background-color: #6DBD6B;
+	border-radius: 20px;
+	border: 1px solid #6DBD6B;
+	outline: none;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+button p{
+	text-transform: uppercase;
+	font-weight: bold;
+}
